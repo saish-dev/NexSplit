@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B585A312F4036A500DFC51F /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B585A292F4036A500DFC51F /* LandingView.swift */; };
+		4B585A322F4036A500DFC51F /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B585A2D2F4036A500DFC51F /* AppState.swift */; };
+		4B585A332F4036A500DFC51F /* NexBillApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B585A2F2F4036A500DFC51F /* NexBillApp.swift */; };
+		4B585A342F4036A500DFC51F /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B585A272F4036A500DFC51F /* DashboardView.swift */; };
+		4B585A352F4036A500DFC51F /* BillUploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B585A262F4036A500DFC51F /* BillUploadView.swift */; };
+		4B585A362F4036A500DFC51F /* GeminiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B585A232F4036A500DFC51F /* GeminiService.swift */; };
+		4B585A372F4036A500DFC51F /* BillEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B585A252F4036A500DFC51F /* BillEditorView.swift */; };
+		4B585A382F4036A500DFC51F /* BillItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B585A1F2F4036A500DFC51F /* BillItem.swift */; };
+		4B585A392F4036A500DFC51F /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B585A2B2F4036A500DFC51F /* SummaryView.swift */; };
+		4B585A3A2F4036A500DFC51F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B585A2E2F4036A500DFC51F /* Constants.swift */; };
+		4B585A3B2F4036A500DFC51F /* AppCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B585A182F4036A500DFC51F /* AppCard.swift */; };
+		4B585A3C2F4036A500DFC51F /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B585A202F4036A500DFC51F /* Person.swift */; };
+		4B585A3D2F4036A500DFC51F /* GroupsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B585A282F4036A500DFC51F /* GroupsView.swift */; };
+		4B585A3E2F4036A500DFC51F /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B585A1E2F4036A500DFC51F /* Bill.swift */; };
+		4B585A3F2F4036A500DFC51F /* NexAvatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B585A192F4036A500DFC51F /* NexAvatar.swift */; };
+		4B585A402F4036A500DFC51F /* SplitType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B585A212F4036A500DFC51F /* SplitType.swift */; };
+		4B585A412F4036A500DFC51F /* SelectPeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B585A2A2F4036A500DFC51F /* SelectPeopleView.swift */; };
+		4B585A422F4036A500DFC51F /* NexButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B585A1A2F4036A500DFC51F /* NexButton.swift */; };
+		4B585A432F4036A500DFC51F /* Color+NexBill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B585A1C2F4036A500DFC51F /* Color+NexBill.swift */; };
+		4B585A462F4036E500DFC51F /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = 4B585A452F4036E500DFC51F /* GoogleGenerativeAI */; };
+		4B585A812F4036A500DFC51F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B585A802F4036A500DFC51F /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4B585A082F40366400DFC51F /* NexSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NexSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B585A182F4036A500DFC51F /* AppCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCard.swift; sourceTree = "<group>"; };
+		4B585A192F4036A500DFC51F /* NexAvatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NexAvatar.swift; sourceTree = "<group>"; };
+		4B585A1A2F4036A500DFC51F /* NexButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NexButton.swift; sourceTree = "<group>"; };
+		4B585A1C2F4036A500DFC51F /* Color+NexBill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+NexBill.swift"; sourceTree = "<group>"; };
+		4B585A1E2F4036A500DFC51F /* Bill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
+		4B585A1F2F4036A500DFC51F /* BillItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillItem.swift; sourceTree = "<group>"; };
+		4B585A202F4036A500DFC51F /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		4B585A212F4036A500DFC51F /* SplitType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitType.swift; sourceTree = "<group>"; };
+		4B585A232F4036A500DFC51F /* GeminiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiService.swift; sourceTree = "<group>"; };
+		4B585A252F4036A500DFC51F /* BillEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillEditorView.swift; sourceTree = "<group>"; };
+		4B585A262F4036A500DFC51F /* BillUploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillUploadView.swift; sourceTree = "<group>"; };
+		4B585A272F4036A500DFC51F /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		4B585A282F4036A500DFC51F /* GroupsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsView.swift; sourceTree = "<group>"; };
+		4B585A292F4036A500DFC51F /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
+		4B585A2A2F4036A500DFC51F /* SelectPeopleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPeopleView.swift; sourceTree = "<group>"; };
+		4B585A2B2F4036A500DFC51F /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+		4B585A2D2F4036A500DFC51F /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		4B585A2E2F4036A500DFC51F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4B585A2F2F4036A500DFC51F /* NexBillApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NexBillApp.swift; sourceTree = "<group>"; };
+		4B585A802F4036A500DFC51F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B585A052F40366400DFC51F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B585A462F4036E500DFC51F /* GoogleGenerativeAI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B5859FF2F40366400DFC51F = {
+			isa = PBXGroup;
+			children = (
+				4B585A302F4036A500DFC51F /* NexSplit */,
+				4B585A092F40366400DFC51F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B585A092F40366400DFC51F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B585A082F40366400DFC51F /* NexSplit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B585A1B2F4036A500DFC51F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4B585A182F4036A500DFC51F /* AppCard.swift */,
+				4B585A192F4036A500DFC51F /* NexAvatar.swift */,
+				4B585A1A2F4036A500DFC51F /* NexButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		4B585A1D2F4036A500DFC51F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4B585A1C2F4036A500DFC51F /* Color+NexBill.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4B585A222F4036A500DFC51F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4B585A1E2F4036A500DFC51F /* Bill.swift */,
+				4B585A1F2F4036A500DFC51F /* BillItem.swift */,
+				4B585A202F4036A500DFC51F /* Person.swift */,
+				4B585A212F4036A500DFC51F /* SplitType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4B585A242F4036A500DFC51F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4B585A232F4036A500DFC51F /* GeminiService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4B585A2C2F4036A500DFC51F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4B585A252F4036A500DFC51F /* BillEditorView.swift */,
+				4B585A262F4036A500DFC51F /* BillUploadView.swift */,
+				4B585A272F4036A500DFC51F /* DashboardView.swift */,
+				4B585A282F4036A500DFC51F /* GroupsView.swift */,
+				4B585A292F4036A500DFC51F /* LandingView.swift */,
+				4B585A2A2F4036A500DFC51F /* SelectPeopleView.swift */,
+				4B585A2B2F4036A500DFC51F /* SummaryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4B585A302F4036A500DFC51F /* NexSplit */ = {
+			isa = PBXGroup;
+			children = (
+				4B585A1B2F4036A500DFC51F /* Components */,
+				4B585A1D2F4036A500DFC51F /* Extensions */,
+				4B585A222F4036A500DFC51F /* Models */,
+				4B585A242F4036A500DFC51F /* Services */,
+				4B585A2C2F4036A500DFC51F /* Views */,
+				4B585A2D2F4036A500DFC51F /* AppState.swift */,
+				4B585A2E2F4036A500DFC51F /* Constants.swift */,
+				4B585A2F2F4036A500DFC51F /* NexBillApp.swift */,
+				4B585A802F4036A500DFC51F /* Assets.xcassets */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B585A072F40366400DFC51F /* NexSplit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B585A152F40366600DFC51F /* Build configuration list for PBXNativeTarget "NexSplit" */;
+			buildPhases = (
+				4B585A042F40366400DFC51F /* Sources */,
+				4B585A052F40366400DFC51F /* Frameworks */,
+				4B585A062F40366400DFC51F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NexSplit;
+			packageProductDependencies = (
+				4B585A452F4036E500DFC51F /* GoogleGenerativeAI */,
+			);
+			productName = NexSplit;
+			productReference = 4B585A082F40366400DFC51F /* NexSplit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B585A002F40366400DFC51F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					4B585A072F40366400DFC51F = {
+						CreatedOnToolsVersion = 26.2;
+					};
+				};
+			};
+			buildConfigurationList = 4B585A032F40366400DFC51F /* Build configuration list for PBXProject "NexSplit" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B5859FF2F40366400DFC51F;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				4B585A442F4036E500DFC51F /* XCRemoteSwiftPackageReference "generative-ai-swift" */,
+				4B585A472F4055D400DFC51F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4B585A092F40366400DFC51F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B585A072F40366400DFC51F /* NexSplit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B585A062F40366400DFC51F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B585A812F4036A500DFC51F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B585A042F40366400DFC51F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B585A312F4036A500DFC51F /* LandingView.swift in Sources */,
+				4B585A322F4036A500DFC51F /* AppState.swift in Sources */,
+				4B585A332F4036A500DFC51F /* NexBillApp.swift in Sources */,
+				4B585A342F4036A500DFC51F /* DashboardView.swift in Sources */,
+				4B585A352F4036A500DFC51F /* BillUploadView.swift in Sources */,
+				4B585A362F4036A500DFC51F /* GeminiService.swift in Sources */,
+				4B585A372F4036A500DFC51F /* BillEditorView.swift in Sources */,
+				4B585A382F4036A500DFC51F /* BillItem.swift in Sources */,
+				4B585A392F4036A500DFC51F /* SummaryView.swift in Sources */,
+				4B585A3A2F4036A500DFC51F /* Constants.swift in Sources */,
+				4B585A3B2F4036A500DFC51F /* AppCard.swift in Sources */,
+				4B585A3C2F4036A500DFC51F /* Person.swift in Sources */,
+				4B585A3D2F4036A500DFC51F /* GroupsView.swift in Sources */,
+				4B585A3E2F4036A500DFC51F /* Bill.swift in Sources */,
+				4B585A3F2F4036A500DFC51F /* NexAvatar.swift in Sources */,
+				4B585A402F4036A500DFC51F /* SplitType.swift in Sources */,
+				4B585A412F4036A500DFC51F /* SelectPeopleView.swift in Sources */,
+				4B585A422F4036A500DFC51F /* NexButton.swift in Sources */,
+				4B585A432F4036A500DFC51F /* Color+NexBill.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B585A132F40366600DFC51F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B585A142F40366600DFC51F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B585A162F40366600DFC51F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YSA9HJ2T36;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "NexSplit needs camera access to scan your receipts.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "NexSplit needs photo library access to upload your saved receipts.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nexverse.NexSplit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B585A172F40366600DFC51F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YSA9HJ2T36;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "NexSplit needs camera access to scan your receipts.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "NexSplit needs photo library access to upload your saved receipts.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nexverse.NexSplit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B585A032F40366400DFC51F /* Build configuration list for PBXProject "NexSplit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B585A132F40366600DFC51F /* Debug */,
+				4B585A142F40366600DFC51F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B585A152F40366600DFC51F /* Build configuration list for PBXNativeTarget "NexSplit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B585A162F40366600DFC51F /* Debug */,
+				4B585A172F40366600DFC51F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4B585A442F4036E500DFC51F /* XCRemoteSwiftPackageReference "generative-ai-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/generative-ai-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.6;
+			};
+		};
+		4B585A472F4055D400DFC51F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4B585A452F4036E500DFC51F /* GoogleGenerativeAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4B585A442F4036E500DFC51F /* XCRemoteSwiftPackageReference "generative-ai-swift" */;
+			productName = GoogleGenerativeAI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4B585A002F40366400DFC51F /* Project object */;
+}
