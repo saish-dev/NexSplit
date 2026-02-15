@@ -6,6 +6,7 @@ enum AppScreen: Hashable {
     case dashboard
     case selectPeople
     case upload
+    case manualEntry
     case editor
     case groups
     case bills
@@ -122,6 +123,16 @@ class AppState {
         self.taxAmount = result.totalTax
         self.serviceChargeAmount = result.totalServiceCharge
         self.extractedRestaurantName = result.restaurantName
+    }
+    
+    func startManualEntry() {
+        // Skip AI parsing and set up empty state for manual input
+        self.parsedItems = [BillItem(name: "New Item", price: 0, quantity: 1, assignedTo: [])]
+        self.taxAmount = 0
+        self.serviceChargeAmount = 0
+        self.extractedRestaurantName = nil
+        self.billImage = nil
+        self.navigate(to: .editor)
     }
     
     // MARK: - Persistence Actions

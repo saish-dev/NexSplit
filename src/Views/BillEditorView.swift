@@ -53,7 +53,7 @@ struct BillEditorView: View {
                     // Editor List
                     List {
                         Section {
-                            TextField("Enter restaurant name...", text: $billTitle)
+                            TextField("Bill name...", text: $billTitle)
                                 .font(.system(size: 16, weight: .semibold))
                                 .foregroundColor(.nexSlate900)
                         } header: {

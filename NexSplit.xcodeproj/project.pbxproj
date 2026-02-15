@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A37DBF4D0704606A43F421F /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15D44504FBB43139DE158B4 /* Secrets.swift */; };
 		4B585A312F4036A500DFC51F /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B585A292F4036A500DFC51F /* LandingView.swift */; };
 		4B585A322F4036A500DFC51F /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B585A2D2F4036A500DFC51F /* AppState.swift */; };
 		4B585A332F4036A500DFC51F /* NexBillApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B585A2F2F4036A500DFC51F /* NexBillApp.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A15D44504FBB43139DE158B4 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 		4B585A082F40366400DFC51F /* NexSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NexSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B585A182F4036A500DFC51F /* AppCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCard.swift; sourceTree = "<group>"; };
 		4B585A192F4036A500DFC51F /* NexAvatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NexAvatar.swift; sourceTree = "<group>"; };
@@ -69,7 +71,7 @@
 		4B5859FF2F40366400DFC51F = {
 			isa = PBXGroup;
 			children = (
-				4B585A302F4036A500DFC51F /* NexSplit */,
+				4B585A302F4036A500DFC51F /* src */,
 				4B585A092F40366400DFC51F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -133,9 +135,10 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		4B585A302F4036A500DFC51F /* NexSplit */ = {
+		4B585A302F4036A500DFC51F /* src */ = {
 			isa = PBXGroup;
 			children = (
+				A15D44504FBB43139DE158B4 /* Secrets.swift */,
 				4B585A1B2F4036A500DFC51F /* Components */,
 				4B585A1D2F4036A500DFC51F /* Extensions */,
 				4B585A222F4036A500DFC51F /* Models */,
@@ -198,7 +201,6 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				4B585A442F4036E500DFC51F /* XCRemoteSwiftPackageReference "generative-ai-swift" */,
-				4B585A472F4055D400DFC51F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 4B585A092F40366400DFC51F /* Products */;
@@ -226,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A37DBF4D0704606A43F421F /* Secrets.swift in Sources */,
 				4B585A312F4036A500DFC51F /* LandingView.swift in Sources */,
 				4B585A322F4036A500DFC51F /* AppState.swift in Sources */,
 				4B585A332F4036A500DFC51F /* NexBillApp.swift in Sources */,
@@ -380,11 +383,11 @@
 				DEVELOPMENT_TEAM = YSA9HJ2T36;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "NexSplit needs camera access to scan your receipts.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "NexSplit needs photo library access to upload your saved receipts.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_NSCameraUsageDescription = "NexSplit needs camera access to scan your receipts.";
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "NexSplit needs photo library access to upload your saved receipts.";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -414,11 +417,11 @@
 				DEVELOPMENT_TEAM = YSA9HJ2T36;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "NexSplit needs camera access to scan your receipts.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "NexSplit needs photo library access to upload your saved receipts.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_NSCameraUsageDescription = "NexSplit needs camera access to scan your receipts.";
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "NexSplit needs photo library access to upload your saved receipts.";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -468,14 +471,6 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 0.5.6;
-			};
-		};
-		4B585A472F4055D400DFC51F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 12.9.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

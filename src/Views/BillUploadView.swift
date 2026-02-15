@@ -133,6 +133,19 @@ struct BillUploadView: View {
                         )
                     }
                     .buttonStyle(.plain)
+                    
+                    // Manual Entry Option
+                    Button {
+                        appState.startManualEntry()
+                    } label: {
+                        UploadOptionCard(
+                            icon: "square.and.pencil",
+                            title: "Manual Entry",
+                            subtitle: "Enter receipt details without scanning",
+                            color: .teal
+                        )
+                    }
+                    .buttonStyle(.plain)
                 }
                 .padding(.horizontal, 24)
                 

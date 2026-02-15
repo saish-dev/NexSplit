@@ -28,7 +28,7 @@ struct ContentView: View {
                 SelectPeopleView()
             case .upload:
                 BillUploadView()
-            case .editor:
+            case .manualEntry, .editor:
                 BillEditorView()
             case .groups:
                 GroupsView()
